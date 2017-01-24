@@ -134,7 +134,7 @@ namespace jsears2749ex1a1
 
             }
 
-            detailsLabel.Text = purchaseOrderList.Count.ToString();  // Debug Display Count
+            //  detailsLabel.Text = purchaseOrderList.Count.ToString();  // Debug Display Count
 
             if (purchaseOrderList.Count() > 0)
             {
@@ -371,7 +371,7 @@ namespace jsears2749ex1a1
                 if (purchaseOrderHeaderDropDownList.Items.Count != 0)
                 {
 
-                    if (purchaseOrderHeaderDropDownList.Items.Count - 1 <= purchaseOrderCurrentSelectedIndex)
+                    if (purchaseOrderHeaderDropDownList.Items.Count  >= purchaseOrderCurrentSelectedIndex)
 
                     {
 
